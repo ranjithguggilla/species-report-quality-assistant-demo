@@ -52,9 +52,9 @@ Limited to 8 Gulf-relevant species:
 
 ## Data privacy
 
-- Uses only synthetic sample reports and generated placeholder images.
-- No faces, boat registrations, exact personal locations, or identifiable information.
-- No real catch data from any monitoring program.
+- **Reports:** `data/sample_reports.csv` is synthetic only (no real angler submissions).
+- **Photos:** `data/demo_images/` uses **real fish photographs** from [Wikimedia Commons](https://commons.wikimedia.org) with documented licenses — see [`data/demo_images/SOURCES.md`](data/demo_images/SOURCES.md). They are for UI demonstration only, not from HRI/CSSC or any private program.
+- Demo images avoid faces, boat registrations, and personal locations; do not upload identifiable private photos into a public fork without consent.
 
 ## Tech stack
 
@@ -74,11 +74,11 @@ species-report-quality-assistant-demo/
 ├── data/
 │   ├── sample_reports.csv        25 synthetic report records
 │   ├── species_reference.csv     Species length ranges and habitat info
-│   └── demo_images/              8 placeholder species images
+│   └── demo_images/              8 Commons-licensed species photos + SOURCES.md
 ├── outputs/                      Generated exports
 ├── scripts/
 │   ├── smoke_test.py             Automated pipeline validation
-│   └── generate_demo_images.py   Placeholder image generator
+│   └── generate_demo_images.py   Optional solid-color placeholders (offline only)
 ├── screenshots/                  UI screenshots (placeholder)
 ├── requirements.txt
 ├── Makefile

@@ -1,8 +1,8 @@
-"""Generate placeholder demo images for the 8 target species.
+"""Optional: generate solid-color placeholder images (no real fish).
 
-Each image is a colored rectangle with the species name rendered as text.
-These are NOT real fish photos — they exist solely so the app has image files
-to demonstrate the quality-check and species-suggestion workflow.
+The repository ships with **real Wikimedia Commons photos** in `data/demo_images/`
+(see `data/demo_images/SOURCES.md`). Use this script only if you need offline
+placeholders without downloading Commons assets — e.g. in a restricted network.
 """
 from __future__ import annotations
 
