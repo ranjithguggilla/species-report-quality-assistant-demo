@@ -4,7 +4,7 @@
 
 This prototype is a public-data-safe demonstration of how image-assisted species suggestions and report-quality checks could support recreational fisheries reporting workflows. It does not use internal HRI/CSSC data, does not replace expert review, and does not claim management-grade species identification. The goal is to demonstrate a human-in-the-loop workflow for cleaner, more reviewable citizen-science reports.
 
-## HRI / CSSC alignment
+## CSSC alignment
 
 Citizen-science platforms like iSnapper let anglers report catch data to improve harvest estimates. This prototype explores how image quality assessment and candidate species labels could speed up manual review of those submissions — without replacing the human reviewer.
 
