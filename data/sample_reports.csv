@@ -1,0 +1,26 @@
+report_id,trip_id,species_reported_by_user,catch_date,general_area,depth_range_ft,length_inches,kept_or_released,photo_uploaded,gear_type,notes
+RPT-0001,T-101,Red Snapper,2026-03-15,Offshore Galveston,80,24.5,kept,yes,bottom rig,Nice size snapper
+RPT-0002,T-101,Red Snapper,2026-03-15,Offshore Galveston,80,18.0,released,yes,bottom rig,Below minimum
+RPT-0003,T-102,Spotted Seatrout,2026-04-02,Aransas Bay,4,22.0,kept,yes,artificial lure,
+RPT-0004,T-103,Red Drum,2026-04-10,Mustang Island surf,3,30.0,released,yes,cut bait,Slot limit
+RPT-0005,T-104,King Mackerel,2026-05-01,Offshore Port Aransas,45,38.0,kept,yes,trolling,
+RPT-0006,T-105,Southern Flounder,2026-10-20,Upper Laguna Madre,3,16.5,kept,yes,live bait,Fall run
+RPT-0007,T-106,Black Drum,2026-02-18,Packery Channel,8,28.0,released,yes,dead shrimp,
+RPT-0008,T-107,Cobia,2026-06-05,Nearshore buoy line,20,42.0,kept,yes,sight cast,Big fish near buoy
+RPT-0009,T-108,Red Snapper,2026-07-22,Offshore Freeport,120,26.0,kept,no,bottom rig,No photo available
+RPT-0010,T-109,Spotted Seatrout,2026-03-28,Baffin Bay,5,,kept,yes,soft plastic,Forgot to measure
+RPT-0011,T-110,Red Drum,2025-11-15,Corpus Christi Bay,6,55.0,released,yes,topwater,Very large fish
+RPT-0012,T-111,Red Snapper,2027-01-01,Offshore,60,20.0,kept,yes,bottom rig,Future date
+RPT-0013,T-112,,2026-04-15,Aransas Pass,10,19.0,kept,yes,jig,Species left blank
+RPT-0014,T-113,Shark (broad category),2026-06-30,Padre Island surf,4,48.0,released,yes,cut bait,Bull shark maybe
+RPT-0015,T-114,King Mackerel,2026-05-10,Offshore,35,15.0,kept,yes,trolling,Unusually small for king
+RPT-0016,T-115,Cobia,2026-07-14,Nearshore platform,25,30.0,released,yes,live bait,
+RPT-0017,T-116,Southern Flounder,2026-11-02,Port Mansfield,3,14.0,kept,no,gigging,Night trip
+RPT-0018,T-117,Red Snapper,2026-08-10,Offshore High Island,90,22.0,,yes,bottom rig,Forgot kept/released
+RPT-0019,T-118,Spotted Seatrout,2026-04-20,Redfish Bay,4,26.0,kept,yes,topwater,Trophy class
+RPT-0020,T-119,Black Drum,2026-03-05,Port Aransas jetty,12,35.0,released,yes,crab,Spring run
+RPT-0021,T-120,Red Drum,2026-09-22,Matagorda Bay,5,27.0,kept,yes,gold spoon,Slot fish
+RPT-0022,T-121,Red Snapper,2026-06-18,Offshore Galveston,95,21.0,kept,yes,bottom rig,Season opener
+RPT-0023,T-122,Cobia,2026-05-28,Offshore buoy,30,50.0,kept,yes,jig,Monster cobia
+RPT-0024,T-123,Southern Flounder,2026-10-30,Lower Laguna,2,18.5,kept,yes,mud minnow,
+RPT-0025,T-124,King Mackerel,2026-04-22,Offshore,50,44.0,kept,yes,trolling spoon,Smoker king
