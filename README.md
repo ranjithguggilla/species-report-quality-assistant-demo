@@ -330,17 +330,7 @@ clear_cache()
 ## Future improvements
 
 - Add duplicate image detection (perceptual hashing).
-- Add EXIF metadata extraction for geolocation validation.
+- Optional EXIF hints for consistency checks (policy-reviewed; no location sharing without consent).
 - Integrate Grad-CAM for model explanation overlays.
 - Support batch upload of multiple reports.
 - Add ONNX export for edge deployment.
-
-## GitHub repository metadata (optional)
-
-Suggested **About** description (single line):
-
-`Image-assisted reporting QA extension — species suggestions, photo quality checks, review triage (public-data-safe).`
-
-Suggested **Topics:** `streamlit`, `python`, `opencv`, `pytorch`, `species-classification`, `computer-vision`, `data-quality`, `citizen-science`, `fisheries`
-
-If GitHub still shows an older README (removed sections or outdated bullets), **push the latest `main`** — the default branch README is rendered from the repository, not your local disk alone.
