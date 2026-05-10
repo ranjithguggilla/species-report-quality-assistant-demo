@@ -3,9 +3,46 @@
 [![CI](https://github.com/ranjithguggilla/species-report-quality-assistant-demo/actions/workflows/ci.yml/badge.svg)](https://github.com/ranjithguggilla/species-report-quality-assistant-demo/actions/workflows/ci.yml)
 ![Python 3.11+](https://img.shields.io/badge/python-3.11+-3776AB?style=flat&logo=python&logoColor=white)
 
-Image-assisted reporting QA extension — species suggestions, photo quality checks, review triage.
+Image-assisted reporting QA — species suggestions, photo quality checks, review triage (public-data-safe).
 
-Streamlit UI title: **Image-Assisted Sportfish Reporting QA Demo** (kept for screenshots and demos).
+---
+
+## Overview
+
+**Image-Assisted Sportfish Reporting QA Demo** (Streamlit) walks a reviewer-style workflow: upload catch metadata and a photo, run image-quality checks and candidate species suggestions, triage a review queue, and export structured artifacts—**human-in-the-loop by design**; not management-grade ID and not a substitute for expert review.
+
+<p align="center">
+  <img src="assets/gifs/demo-overview.gif" alt="Walkthrough: Image-Assisted Sportfish Reporting QA — upload, AI assistance, review queue, export, disclaimers" width="95%">
+</p>
+
+<p align="center">
+  <sub><strong>Quick tour</strong> — Upload &amp; Submit · AI Assistance · Review Queue · Data Export · Model Limits — <em>synthetic sample reports; Commons-licensed demo photos per data docs</em></sub>
+</p>
+
+<p align="center">
+  <sub>Media: <code>assets/gifs/demo-overview.gif</code> · companion PNGs in <code>assets/screenshots/</code> · see <a href="assets/README.md"><code>assets/README.md</code></a> to regenerate captures</sub>
+</p>
+
+---
+
+## Demo gallery
+
+Static PNGs (Playwright or manual) and the overview GIF above live under **`assets/`**. Expand for full-width previews of each sidebar page.
+
+<details>
+<summary><strong>Expand: 5 UI screenshots</strong> (upload → AI assistance → queue → export → limits)</summary>
+
+| Page | Preview |
+|------|---------|
+| Upload & Submit | ![Upload & Submit](assets/screenshots/01-upload-submit.png) |
+| AI Assistance | ![AI Assistance](assets/screenshots/02-ai-assistance.png) |
+| Review Queue | ![Review Queue](assets/screenshots/03-review-queue.png) |
+| Data Export | ![Data Export](assets/screenshots/04-data-export.png) |
+| Model Limits & Disclaimers | ![Model Limits](assets/screenshots/05-model-limits.png) |
+
+</details>
+
+---
 
 ## Purpose
 
@@ -297,24 +334,6 @@ clear_cache()
 - Integrate Grad-CAM for model explanation overlays.
 - Support batch upload of multiple reports.
 - Add ONNX export for edge deployment.
-
-## Screenshots & demo GIF
-
-PNG captures live in **`assets/screenshots/`**; the walkthrough GIF is **`assets/gifs/demo-overview.gif`** (see [`assets/README.md`](assets/README.md) to regenerate from a new screen recording).
-
-### Demo walkthrough (GIF)
-
-![Dashboard walkthrough](assets/gifs/demo-overview.gif)
-
-*Source: screen recording converted with `ffmpeg` (5 fps, 800px wide) to keep the file near ~6 MB for GitHub.*
-
-| Page | Preview |
-|------|---------|
-| Upload & Submit (submit confirmation) | ![Upload & Submit](assets/screenshots/01-upload-submit.png) |
-| AI Assistance | ![AI Assistance](assets/screenshots/02-ai-assistance.png) |
-| Review Queue | ![Review Queue](assets/screenshots/03-review-queue.png) |
-| Data Export | ![Data Export](assets/screenshots/04-data-export.png) |
-| Model Limits | ![Model Limits](assets/screenshots/05-model-limits.png) |
 
 ## GitHub repository metadata (optional)
 
