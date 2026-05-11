@@ -44,6 +44,14 @@ Static PNGs (Playwright or manual) and the overview GIF above live under **`asse
 
 ---
 
+## Data & limitations
+
+- **Public-data-safe:** Synthetic sample reports and openly licensed demonstration photos only—see **Data privacy** below.
+- **No internal HRI/CSSC data:** This repository does **not** use confidential, restricted, or internal datasets from HRI, CSSC, or partner fishery programs.
+- **Prototype:** Not biological inference, stock assessment, or management-grade species identification; candidate labels require human confirmation.
+
+---
+
 ## Purpose
 
 This prototype is a public-data-safe demonstration of how image-assisted species suggestions and report-quality checks could support recreational fisheries reporting workflows. It uses only public or synthetic demonstration materials, does not replace expert review, and does not claim management-grade species identification. The goal is to demonstrate a human-in-the-loop workflow for cleaner, more reviewable citizen-science reports.
@@ -95,6 +103,8 @@ Limited to 8 Gulf-relevant species:
 8. Shark (broad category)
 
 ## Data privacy
+
+The **Data & limitations** section above states the institutional scope (including no internal HRI/CSSC data). File-level notes:
 
 - **Reports:** `data/sample_reports.csv` is synthetic only (no real angler submissions).
 - **Photos:** `data/demo_images/` uses **real fish photographs** from [Wikimedia Commons](https://commons.wikimedia.org) with documented licenses — see [`data/demo_images/SOURCES.md`](data/demo_images/SOURCES.md). They are for UI demonstration only, not from any private monitoring program.
@@ -213,6 +223,24 @@ make smoke
 ```
 
 GitHub Actions runs `scripts/smoke_test.py` on push/PR to `main`.
+
+## Example outputs
+
+Exports from the UI or `src/export_utils.py` are written under **`outputs/`** (created on demand):
+
+| File | Description |
+|------|-------------|
+| `review_queue.csv` | Review queue as CSV |
+| `review_queue.json` | Same records as JSON |
+| `demo_summary.md` | Short markdown summary with priority counts |
+
+Download buttons in the app may use the same data in memory; filenames match the helpers in `export_utils.py`.
+
+## How this could support research workflows
+
+- **Triage and consistency:** Surfaces photo-quality issues, metadata gaps, and species **mismatch flags** for a human reviewer— not an automated species determination for management.
+- **Structured handoff:** CSV/JSON exports for methods testing and workflow demos with **synthetic** or policy-approved data only.
+- **Optional ML weights:** When configured, a fine-tuned classifier provides **candidate** scores only; stub mode remains for environments without model weights.
 
 ## Scoring logic
 
